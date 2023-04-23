@@ -1,0 +1,103 @@
+/**
+ * Création de variable CSS
+ */
+ :root {
+    --color-black: #141929;
+    --color-gold: #CCAB7B;
+    --color-white: #F7F3F4;
+    --color-green: #CEF9D0;
+    --color-grey: #333333;
+    --color-red: #EA1D25;
+}
+
+/**
+ * Style de balises body, html et main
+ */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif !important;
+    font-size: 18px;
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+
+
+#h1_mobelmo {
+    color: var(--color-red) !important;
+    font-size: 2.5rem;
+    font-family: 'Nunito', sans-serif ;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.div_container_flex{
+    margin: 10px auto;
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.div_container_cat {
+    width: 31%;
+    margin: 20px 1% 20px 1%;
+}
+
+.container_img {
+    border: 0;
+    
+}
+
+.container_img a img{
+    width: inherit;
+}
+    
+
+    /*END Special REPMAD*/
+/*Galery repmad*/
+@media (min-width:1200px){
+    .h2-galery_repmad{
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        color:var(--color-red);
+    }
+    .h3-galery_repmad{
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5rem;
+        color:var(--color-red);
+        padding: 20px 5px;
+        height:60px;
+    
+    }
+    div#galery_repmad{
+        margin: 10px auto;
+        width: 100%;
+        display: flex;
+        flex-flow:  wrap;
+        justify-content: center;
+    }
+    div.galery_images{
+        width: 31%;
+        border-bottom: 3px solid #EA1D25;
+        margin: 10px 10px 40px 10px;
+    
+     }
+     div.galery_images a{
+         width:100%;
+         height:inherit
+     }
+     div.galery_images a img{
+        width:inherit;
+        height:inherit
+    }
+    .p-galery_repmad{
+        text-align: justify;
+    
+    }
+    }
+    /*END Galery repmad*/
